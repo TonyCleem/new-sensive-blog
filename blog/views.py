@@ -3,7 +3,6 @@ from blog.models import Comment, Post, Tag
 from django.db.models import Count
 from django.db.models import Prefetch
 from django.shortcuts import get_object_or_404
-from django.shortcuts import get_list_or_404
 from django.http import Http404
 
 def serialize_post(post):
